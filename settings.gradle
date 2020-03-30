@@ -1,0 +1,2 @@
+include ':antui-build'
+project(':antui-build').projectDir = new File('app')

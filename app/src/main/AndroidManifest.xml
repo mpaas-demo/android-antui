@@ -1,0 +1,81 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mpaas.demo">
+
+    <application
+        android:name="com.alipay.mobile.antui.viewdemo.DemoApplication"
+        android:theme="@style/AppThemeNew">
+
+        <meta-data
+            android:name="notch.config"
+            android:value="portrait|landscape" />
+
+        <activity android:name="com.alipay.mobile.antui.viewdemo.SplashActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.NavBarActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.HomeActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.ButtonActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.TitleBarActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.SearchBarActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.ScrollTitleBarActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.InputActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.AUTabBarActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.AUSegmentActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.form.CheckBoxActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.form.RadioActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.form.InputBoxActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.form.PickerActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.form.SwitchActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.form.TextAreaActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.form.AUAgreementActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.search.SearchActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.search.TopSearchActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.common.BadgeActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.common.ButtonActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.common.FilterActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.common.FooterActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.common.IconActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.common.ResultActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.common.LoadingActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.common.SingleFilterActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.common.MultipleFilterActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.common.ScreenActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.common.ArticleActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.form.FailResultActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.form.SuccessResultActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.APBladeViewActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.DatePickActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.CardMenuActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.AUCardOptionViewActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.StatusActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.ListItemViewActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.EmptyPageLoadingActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.PullRefreshActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.action.DialogActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.action.TipsActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.action.ToastActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.NetErrorViewActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.ChangeSkinActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.AUAmountInputBoxActivity" />
+        <activity
+            android:name="com.alipay.mobile.antui.viewdemo.ImageActivity"
+            android:hardwareAccelerated="false" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.DividerListActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.QRCodeActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.RefreshActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.AUImagePickerActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.PopoverActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.PinnedSectionActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.common.CarouselActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.list.ListViewActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.ActionSheetActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.AUVerticalTabViewActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.PopTipsActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.BubbleViewActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.FullScreenActivity" />
+    </application>
+
+</manifest>
