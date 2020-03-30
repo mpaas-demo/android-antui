@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aui="http://schemas.android.com/apk/res/com.alipay.mobile.antui"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -8,7 +8,7 @@
     <com.alipay.mobile.antui.viewdemo.view.DemoTitleBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:titleText="Dialog" />
+        aui:titleText="Dialog" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -23,10 +23,10 @@
             <com.alipay.mobile.antui.viewdemo.view.BaseHeadView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:titleText="Dialog" />
+                aui:titleText="Dialog" />
 
             <com.alipay.mobile.antui.basic.AUButton
-                style="@style/subButtonStyle"
+                style="@com.alipay.mobile.antui:style/subButtonStyle"
                 android:layout_marginBottom="12dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginRight="12dp"
@@ -36,7 +36,7 @@
                 android:text="蚂蚁下拉刷新（蓝）" />
 
             <com.alipay.mobile.antui.basic.AUButton
-                style="@style/subButtonStyle"
+                style="@com.alipay.mobile.antui:style/subButtonStyle"
                 android:layout_marginBottom="12dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginRight="12dp"
@@ -46,7 +46,7 @@
                 android:text="蚂蚁下拉刷新（白）" />
 
             <com.alipay.mobile.antui.basic.AUButton
-                style="@style/subButtonStyle"
+                style="@com.alipay.mobile.antui:style/subButtonStyle"
                 android:layout_marginBottom="12dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginRight="12dp"

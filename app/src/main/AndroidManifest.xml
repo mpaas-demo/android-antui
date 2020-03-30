@@ -1,21 +1,21 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mpaas.demo">
+    package="com.mpaas.demo.antui">
 
     <application
-        android:name="com.alipay.mobile.antui.viewdemo.DemoApplication"
         android:theme="@style/AppThemeNew">
 
         <meta-data
             android:name="notch.config"
             android:value="portrait|landscape" />
 
-        <activity android:name="com.alipay.mobile.antui.viewdemo.SplashActivity"></activity>
+        <activity android:name="com.alipay.mobile.antui.viewdemo.SplashActivity">
+        </activity>
         <activity android:name="com.alipay.mobile.antui.viewdemo.NavBarActivity" />
         <activity android:name="com.alipay.mobile.antui.viewdemo.HomeActivity" >
-            <intent-filter>
+        <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter> 
         </activity>
         <activity android:name="com.alipay.mobile.antui.viewdemo.ButtonActivity" />
         <activity android:name="com.alipay.mobile.antui.viewdemo.TitleBarActivity" />
@@ -74,8 +74,8 @@
         <activity android:name="com.alipay.mobile.antui.viewdemo.ActionSheetActivity" />
         <activity android:name="com.alipay.mobile.antui.viewdemo.AUVerticalTabViewActivity" />
         <activity android:name="com.alipay.mobile.antui.viewdemo.PopTipsActivity" />
-        <activity android:name="com.alipay.mobile.antui.viewdemo.BubbleViewActivity" />
-        <activity android:name="com.alipay.mobile.antui.viewdemo.FullScreenActivity" />
+        <activity android:name=".viewdemo.BubbleViewActivity" />
+        <activity android:name=".viewdemo.FullScreenActivity" />
     </application>
 
 </manifest>

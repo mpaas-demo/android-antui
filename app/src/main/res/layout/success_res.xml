@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aui="http://schemas.android.com/apk/res/com.alipay.mobile.antui"
     android:layout_height="match_parent">
 
     <com.alipay.mobile.antui.basic.AULinearLayout
@@ -13,26 +13,26 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/title_bar"
-            app:titleText="支付成功" />
+            aui:titleText="支付成功" />
 
         <com.alipay.mobile.antui.status.AUResultView
             android:id="@+id/result_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            app:mainTitleText="操作成功"
-            app:thirdTitleText="内容详情，根据实际文案安排
+            aui:mainTitleText="操作成功"
+            aui:thirdTitleText="内容详情，根据实际文案安排
 如果换行不超过两行"/>
 
 
         <com.alipay.mobile.antui.basic.AUButton
-            style="@style/mainButtonStyle"
+            style="@com.alipay.mobile.antui:style/mainButtonStyle"
             android:layout_margin="12dp"
             android:clickable="true"
             android:text="主要操作" />
 
         <com.alipay.mobile.antui.basic.AUButton
-            style="@style/subButtonStyle"
+            style="@com.alipay.mobile.antui:style/subButtonStyle"
             android:layout_margin="12dp"
             android:clickable="true"
             android:text="辅助操作" />

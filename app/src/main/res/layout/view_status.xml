@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aui="http://schemas.android.com/apk/res/com.alipay.mobile.antui"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -9,8 +9,8 @@
         android:id="@+id/result_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:rightText="切换"
-        app:titleText="结果页" />
+        aui:rightText="切换"
+        aui:titleText="结果页" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -24,18 +24,18 @@
                 android:id="@+id/result_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:icon="@drawable/icon_result_alipay"
-                app:mainTitleText="验证成功"
-                app:thirdTitleText="所提交内容已成功完成验证"/>
+                aui:icon="@com.alipay.mobile.antui:drawable/icon_result_alipay"
+                aui:mainTitleText="验证成功"
+                aui:thirdTitleText="所提交内容已成功完成验证"/>
 
             <com.alipay.mobile.antui.status.AUResultView
                 android:id="@+id/result_view2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:icon="@drawable/icon_result_alipay"
-                app:mainTitleText="支付成功"
-                app:subTitleText="998.00"
-                app:thirdTitleText="1098.00元"/>
+                aui:icon="@com.alipay.mobile.antui:drawable/icon_result_alipay"
+                aui:mainTitleText="支付成功"
+                aui:subTitleText="998.00"
+                aui:thirdTitleText="1098.00元"/>
 
             <com.alipay.mobile.antui.status.AUFlowResultView
                 android:id="@+id/flow_result_view"

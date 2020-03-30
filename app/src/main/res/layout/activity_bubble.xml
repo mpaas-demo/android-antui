@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:aui="http://schemas.android.com/apk/res/com.alipay.mobile.antui"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical">
@@ -9,7 +9,7 @@
         android:id="@+id/bubble_title_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:titleText="BubbleView">
+        aui:titleText="BubbleView">
 
     </com.alipay.mobile.antui.viewdemo.view.DemoTitleBar>
 
@@ -39,8 +39,8 @@
             android:gravity="center"
             android:text="右上角"
             android:textSize="12sp"
-            app:bubbleColor="@color/AU_COLOR10"
-            app:bubblePosition="topMid"
+            aui:bubbleColor="@color/AU_COLOR10"
+            aui:bubblePosition="topMid"
             />
 
         <com.alipay.mobile.antui.badge.bubble.AUBubbleView
@@ -51,7 +51,7 @@
             android:layout_margin="10dp"
             android:text="大的气泡"
             android:textSize="60sp"
-            app:bubblePosition="topMid"
+            aui:bubblePosition="topMid"
             />
 
         <com.alipay.mobile.antui.badge.bubble.AUBubbleView
@@ -65,8 +65,8 @@
             android:text="大的蓝色气泡小字"
             android:textColor="@color/AU_COLOR14"
             android:textSize="10sp"
-            app:bubbleColor="@color/AU_COLOR9"
-            app:bubblePosition="topMid"
+            aui:bubbleColor="@color/AU_COLOR9"
+            aui:bubblePosition="topMid"
             />
 
         <com.alipay.mobile.antui.badge.bubble.AUBubbleView
@@ -77,7 +77,7 @@
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="20dp"
             android:text="免单惠"
-            app:bubblePosition="topRight"
+            aui:bubblePosition="topRight"
             />
 
         <com.alipay.mobile.antui.badge.bubble.AUBubbleView
@@ -87,7 +87,7 @@
             android:layout_below="@id/bv4"
             android:layout_centerHorizontal="true"
             android:text="免单惠"
-            app:bubblePosition="topMid"
+            aui:bubblePosition="topMid"
             />
 
         <com.alipay.mobile.antui.badge.bubble.AUBubbleView
@@ -98,7 +98,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginRight="20dp"
             android:text="免单惠"
-            app:bubblePosition="topLeft"
+            aui:bubblePosition="topLeft"
             />
 
         <LinearLayout

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aui="http://schemas.android.com/apk/res/com.alipay.mobile.antui"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -9,8 +9,8 @@
         android:id="@+id/net_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:rightText="切换"
-        app:titleText="0" />
+        aui:rightText="切换"
+        aui:titleText="0" />
 
     <com.alipay.mobile.antui.basic.AULinearLayout
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
             android:id="@+id/net_error"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:netErrorType="signalError" />
+            aui:netErrorType="signalError" />
 
     </com.alipay.mobile.antui.basic.AULinearLayout>
 </LinearLayout>

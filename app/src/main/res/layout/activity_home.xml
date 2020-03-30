@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aui="http://schemas.android.com/apk/res/com.alipay.mobile.antui"
     android:id="@+id/test_home"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -24,12 +24,12 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1px"
-        android:background="@color/AU_COLOR_LINE" />
+        android:background="@com.alipay.mobile.antui:color/AU_COLOR_LINE" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:background="@color/AU_COLOR_UNIVERSAL_BG"
+        android:background="@com.alipay.mobile.antui:color/AU_COLOR_UNIVERSAL_BG"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
@@ -40,9 +40,9 @@
             android:layout_weight="1"
             android:text="组件"
             android:textSize="10dp"
-            app:textColor="@color/tab_text_color"
-            app:topIconSid="@drawable/drawable_tab_common"
-            app:topIconSize="20dp" />
+            aui:textColor="@color/tab_text_color"
+            aui:topIconSid="@drawable/drawable_tab_common"
+            aui:topIconSize="20dp" />
 
         <com.alipay.mobile.antui.bar.AUTabBarItem
             android:id="@+id/tab_2"
@@ -51,9 +51,9 @@
             android:layout_weight="1"
             android:text="场景(建设中)"
             android:textSize="10dp"
-            app:textColor="@color/tab_text_color"
-            app:topIconSid="@drawable/drawable_tab_scene"
-            app:topIconSize="20dp" />
+            aui:textColor="@color/tab_text_color"
+            aui:topIconSid="@drawable/drawable_tab_scene"
+            aui:topIconSize="20dp" />
     </LinearLayout>
 
 </LinearLayout>

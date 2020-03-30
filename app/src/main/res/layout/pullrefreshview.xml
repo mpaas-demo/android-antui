@@ -6,7 +6,7 @@
 
     <com.alipay.mobile.antui.basic.AUButton
         android:id="@+id/swichButton"
-        style="@style/mainButtonStyle"
+        style="@com.alipay.mobile.antui:style/mainButtonStyle"
         android:layout_margin="30dp" />
 
     <com.alipay.mobile.antui.basic.AUPullRefreshView

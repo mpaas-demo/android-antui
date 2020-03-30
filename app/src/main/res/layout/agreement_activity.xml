@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aui="http://schemas.android.com/apk/res/com.alipay.mobile.antui"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -8,7 +8,7 @@
     <com.alipay.mobile.antui.viewdemo.view.DemoTitleBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:titleText="Agreement" />
+        aui:titleText="Agreement" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
         <com.alipay.mobile.antui.viewdemo.view.BaseHeadView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:titleText="Agreement" />
+            aui:titleText="Agreement" />
 
         <com.alipay.mobile.antui.basic.AULinearLayout
             android:orientation="vertical"
@@ -28,7 +28,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
-                android:background="@color/AU_COLOR_UNIVERSAL_BG"/>
+                android:background="@com.alipay.mobile.antui:color/AU_COLOR_UNIVERSAL_BG"/>
 
             <com.alipay.mobile.antui.profession.AUAgreementView
                 android:id="@+id/agreement_view"
@@ -36,9 +36,9 @@
                 android:layout_height="wrap_content"/>
 
             <com.alipay.mobile.antui.basic.AUButton
-                style="@style/mainButtonStyle"
-                android:layout_marginLeft="@dimen/AU_MARGIN_UNIVERSAL"
-                android:layout_marginRight="@dimen/AU_MARGIN_UNIVERSAL"
+                style="@com.alipay.mobile.antui:style/mainButtonStyle"
+                android:layout_marginLeft="@com.alipay.mobile.antui:dimen/AU_MARGIN_UNIVERSAL"
+                android:layout_marginRight="@com.alipay.mobile.antui:dimen/AU_MARGIN_UNIVERSAL"
                 android:clickable="true"
                 android:text="同意并授权" />
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aui="http://schemas.android.com/apk/res/com.alipay.mobile.antui"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -15,71 +15,71 @@
             android:id="@+id/safeInputBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:listItemType="top"
-            app:inputName="标签"
-            app:inputType="textPassword"/>
+            aui:listItemType="top"
+            aui:inputName="标签"
+            aui:inputType="textPassword"/>
 
         <com.alipay.mobile.antui.input.AUInputBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:listItemType="center"
-            app:inputName="最长可六个字一二三"
-            app:inputHint="按提示输入提示"/>
+            aui:listItemType="center"
+            aui:inputName="最长可六个字一二三"
+            aui:inputHint="按提示输入提示"/>
 
         <com.alipay.mobile.antui.input.AUInputBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:listItemType="bottom"
-            app:inputName="转入金额"
-            app:inputHint="按提示输入提示"/>
+            aui:listItemType="bottom"
+            aui:inputName="转入金额"
+            aui:inputHint="按提示输入提示"/>
 
-
-        <com.alipay.mobile.antui.input.AUInputBox
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            app:inputImage="@drawable/image"
-            app:inputName="转入金额"
-            app:inputHint="按提示输入提示"/>
 
         <com.alipay.mobile.antui.input.AUInputBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            app:inputHint="按提示输入提示"/>
+            aui:inputImage="@drawable/image"
+            aui:inputName="转入金额"
+            aui:inputHint="按提示输入提示"/>
+
+        <com.alipay.mobile.antui.input.AUInputBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            aui:inputHint="按提示输入提示"/>
 
         <com.alipay.mobile.antui.input.AUImageInputBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            app:listItemType="top"
-            app:inputName="姓名"
-            app:inputHint="收款人姓名"
-            app:input_rightIconUnicode="@string/iconfont_phone_contact" />
+            aui:listItemType="top"
+            aui:inputName="姓名"
+            aui:inputHint="收款人姓名"
+            aui:input_rightIconUnicode="@com.alipay.mobile.antui:string/iconfont_phone_contact" />
 
         <com.alipay.mobile.antui.input.AUImageInputBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:listItemType="center"
-            app:inputName="卡号"
-            app:inputHint="收款人储蓄卡号" />
+            aui:listItemType="center"
+            aui:inputName="卡号"
+            aui:inputHint="收款人储蓄卡号" />
 
         <com.alipay.mobile.antui.input.AUImageInputBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:listItemType="bottom"
-            app:inputName="银行"
-            app:inputHint="请选择银行"
-            app:input_rightIconDrawable="@drawable/table_arrow" />
+            aui:listItemType="bottom"
+            aui:inputName="银行"
+            aui:inputHint="请选择银行"
+            aui:input_rightIconDrawable="@com.alipay.mobile.antui:drawable/table_arrow" />
 
 
         <com.alipay.mobile.antui.input.AUImageInputBox
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            app:inputName="金额"
-            app:inputHint="输入转账金额"
-            app:input_rightText="限额说明" />
+            aui:inputName="金额"
+            aui:inputHint="输入转账金额"
+            aui:input_rightText="限额说明" />
 
         <com.alipay.mobile.antui.input.AUTextCodeInputBox
             android:id="@+id/au_textcode_input"
@@ -91,7 +91,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            app:inputHint="输入内容"/>
+            aui:inputHint="输入内容"/>
 
     </LinearLayout>
 </ScrollView>

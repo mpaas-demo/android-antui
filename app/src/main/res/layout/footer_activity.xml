@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.alipay.mobile.antui.basic.AURelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aui="http://schemas.android.com/apk/res/com.alipay.mobile.antui"
     android:layout_height="match_parent">
 
     <com.alipay.mobile.antui.viewdemo.view.DemoTitleBar
         android:layout_width="match_parent"
         android:id="@+id/title"
         android:layout_height="wrap_content"
-        app:titleText="Footer" />
+        aui:titleText="Footer" />
 
 
     <com.alipay.mobile.antui.basic.AULinearLayout
@@ -20,7 +20,7 @@
         <com.alipay.mobile.antui.viewdemo.view.BaseHeadView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:titleText="Footer" />
+            aui:titleText="Footer" />
         <com.alipay.mobile.antui.common.AUPageFooterView
             android:layout_marginTop="16dp"
             android:id="@+id/footer1"

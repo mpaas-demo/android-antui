@@ -5,25 +5,25 @@
     android:gravity="center">
     <com.alipay.mobile.antui.basic.AUButton
         android:id="@+id/datePickButton1"
-        style="@style/mainButtonStyle"
+        style="@com.alipay.mobile.antui:style/mainButtonStyle"
         android:text="选择日期（显示年月日）"
         android:layout_margin="30dp"/>
 
     <com.alipay.mobile.antui.basic.AUButton
         android:id="@+id/datePickButton2"
-        style="@style/mainButtonStyle"
+        style="@com.alipay.mobile.antui:style/mainButtonStyle"
         android:text="选择有效期（显示年月）"
         android:layout_margin="30dp"/>
 
     <com.alipay.mobile.antui.basic.AUButton
         android:id="@+id/datePickButton3"
-        style="@style/mainButtonStyle"
+        style="@com.alipay.mobile.antui:style/mainButtonStyle"
         android:text="指定选中2030年12月11日"
         android:layout_margin="30dp"/>
 
     <com.alipay.mobile.antui.basic.AUButton
         android:id="@+id/datePickButton4"
-        style="@style/mainButtonStyle"
+        style="@com.alipay.mobile.antui:style/mainButtonStyle"
         android:text="数据"
         android:layout_margin="30dp"/>
     <LinearLayout

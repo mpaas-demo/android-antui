@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aui="http://schemas.android.com/apk/res/com.alipay.mobile.antui"
 
     android:layout_height="match_parent">
 
@@ -13,10 +13,10 @@
         <com.alipay.mobile.antui.viewdemo.view.DemoTitleBar
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:titleText="Button" />
+            aui:titleText="Button" />
 
         <com.alipay.mobile.antui.viewdemo.view.BaseHeadView
-            app:titleText="Icon"
+            aui:titleText="Icon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"></com.alipay.mobile.antui.viewdemo.view.BaseHeadView>
 
@@ -31,9 +31,9 @@
         <com.alipay.mobile.antui.basic.AUProgressBar
             android:id="@+id/progressBar1"
             android:layout_gravity="center_horizontal"
-            android:layout_width="@dimen/AU_ICONSIZE3"
-            android:layout_height="@dimen/AU_ICONSIZE3"
-            android:indeterminateDrawable="@drawable/au_pullrefresh_progress"
+            android:layout_width="@com.alipay.mobile.antui:dimen/AU_ICONSIZE3"
+            android:layout_height="@com.alipay.mobile.antui:dimen/AU_ICONSIZE3"
+            android:indeterminateDrawable="@com.alipay.mobile.antui:drawable/au_pullrefresh_progress"
             />
         <com.alipay.mobile.antui.basic.AUTextView
             android:layout_gravity="center_horizontal"
@@ -46,9 +46,9 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="40dp"
             android:id="@+id/progressBar2"
-            android:layout_width="@dimen/AU_ICONSIZE3"
-            android:layout_height="@dimen/AU_ICONSIZE3"
-            android:indeterminateDrawable="@drawable/au_pullrefresh_progress"
+            android:layout_width="@com.alipay.mobile.antui:dimen/AU_ICONSIZE3"
+            android:layout_height="@com.alipay.mobile.antui:dimen/AU_ICONSIZE3"
+            android:indeterminateDrawable="@com.alipay.mobile.antui:drawable/au_pullrefresh_progress"
             />
         <com.alipay.mobile.antui.basic.AUTextView
             android:layout_gravity="center_horizontal"

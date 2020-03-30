@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aui="http://schemas.android.com/apk/res/com.alipay.mobile.antui"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <com.alipay.mobile.antui.viewdemo.view.DemoTitleBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:titleText="Textarea" />
+        aui:titleText="Textarea" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
         <com.alipay.mobile.antui.viewdemo.view.BaseHeadView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:titleText="Textarea" />
+            aui:titleText="Textarea" />
 
         <com.alipay.mobile.antui.basic.AULinearLayout
             android:orientation="vertical"
@@ -30,7 +30,7 @@
 
             <com.alipay.mobile.antui.input.AUParagraphInputBox
                 android:layout_marginTop="12dp"
-                app:inputHint="请输入不少于10个字的描述"
+                aui:inputHint="请输入不少于10个字的描述"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"></com.alipay.mobile.antui.input.AUParagraphInputBox>
         </com.alipay.mobile.antui.basic.AULinearLayout>

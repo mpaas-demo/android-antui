@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aui="http://schemas.android.com/apk/res/com.alipay.mobile.antui"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <com.alipay.mobile.antui.viewdemo.view.DemoTitleBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:titleText="Radio" />
+        aui:titleText="Radio" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
         <com.alipay.mobile.antui.viewdemo.view.BaseHeadView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:titleText="TabBar" />
+            aui:titleText="TabBar" />
 
         <com.alipay.mobile.antui.basic.AULinearLayout
             android:orientation="vertical"
@@ -40,8 +40,8 @@
                     android:id="@+id/list_arrow"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:iconfontUnicode="@string/iconfont_selected"
-                    app:iconfontColor="@color/AU_COLOR_LINK"
+                    aui:iconfontUnicode="@com.alipay.mobile.antui:string/iconfont_selected"
+                    aui:iconfontColor="@com.alipay.mobile.antui:color/AU_COLOR_LINK"
                     />
 
                 <com.alipay.mobile.antui.basic.AUTextView
@@ -66,39 +66,39 @@
             <com.alipay.mobile.antui.tablelist.AUSingleTitleListItem
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:listItemType="center"
-                app:listLeftText="中国"
-                app:listShowCheck="true" />
+                aui:listItemType="center"
+                aui:listLeftText="中国"
+                aui:listShowCheck="true" />
             <com.alipay.mobile.antui.tablelist.AUSingleTitleListItem
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:listItemType="center"
-                app:listLeftText="美国"
-                app:listShowCheck="true" />
+                aui:listItemType="center"
+                aui:listLeftText="美国"
+                aui:listShowCheck="true" />
             <com.alipay.mobile.antui.tablelist.AUSingleTitleListItem
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:listItemType="center"
-                app:listLeftText="巴西"
-                app:listShowCheck="true" />
+                aui:listItemType="center"
+                aui:listLeftText="巴西"
+                aui:listShowCheck="true" />
             <com.alipay.mobile.antui.tablelist.AUSingleTitleListItem
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:listItemType="center"
-                app:listLeftText="俄罗斯"
-                app:listShowCheck="true" />
+                aui:listItemType="center"
+                aui:listLeftText="俄罗斯"
+                aui:listShowCheck="true" />
             <com.alipay.mobile.antui.tablelist.AUSingleTitleListItem
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:listItemType="center"
-                app:listLeftText="英国"
-                app:listShowCheck="true" />
+                aui:listItemType="center"
+                aui:listLeftText="英国"
+                aui:listShowCheck="true" />
             <com.alipay.mobile.antui.tablelist.AUSingleTitleListItem
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:listItemType="center"
-                app:listLeftText="法国"
-                app:listShowCheck="true" />
+                aui:listItemType="center"
+                aui:listLeftText="法国"
+                aui:listShowCheck="true" />
         </com.alipay.mobile.antui.basic.AULinearLayout>
 
         <com.alipay.mobile.antui.viewdemo.view.BaseFootView

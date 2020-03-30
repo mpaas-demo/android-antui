@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aui="http://schemas.android.com/apk/res/com.alipay.mobile.antui"
     android:layout_height="match_parent">
     <com.alipay.mobile.antui.viewdemo.view.DemoTitleBar
         android:layout_width="match_parent"
         android:layout_alignParentTop="true"
         android:layout_height="wrap_content"
         android:id="@+id/title_bar"
-        app:titleText="NavBar" />
+        aui:titleText="NavBar" />
 
     <LinearLayout
         android:background="#000000"

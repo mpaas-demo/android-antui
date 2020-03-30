@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aui="http://schemas.android.com/apk/res/com.alipay.mobile.antui"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <com.alipay.mobile.antui.basic.AUTitleBar
         android:id="@+id/menu_title_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:titleText="底部浮层"
-        app:rightIconUnicode="@string/iconfont_more" />
+        aui:titleText="底部浮层"
+        aui:rightIconUnicode="@com.alipay.mobile.antui:string/iconfont_more" />
 
     <com.alipay.mobile.antui.basic.AULinearLayout
         android:layout_below="@id/menu_title_bar"
@@ -25,7 +25,7 @@
             android:gravity="center"
             android:onClick="toastPopMenu"
             android:text="选项一"
-            android:textColor="@color/AU_COLOR_TITLE"
+            android:textColor="@com.alipay.mobile.antui:color/AU_COLOR_TITLE"
             android:textSize="13dp"
             android:tag="down"/>
 
@@ -38,7 +38,7 @@
             android:gravity="center"
             android:onClick="toastPopMenu"
             android:text="选项二"
-            android:textColor="@color/AU_COLOR_TITLE"
+            android:textColor="@com.alipay.mobile.antui:color/AU_COLOR_TITLE"
             android:textSize="13dp"
             android:tag="down"/>
 
@@ -51,7 +51,7 @@
             android:gravity="center"
             android:onClick="showCardMenu"
             android:text="选项三"
-            android:textColor="@color/AU_COLOR_TITLE"
+            android:textColor="@com.alipay.mobile.antui:color/AU_COLOR_TITLE"
             android:textSize="13dp"
             android:tag="down"/>
     </com.alipay.mobile.antui.basic.AULinearLayout>
@@ -72,7 +72,7 @@
             android:gravity="center"
             android:onClick="toastPopMenu"
             android:text="选项一"
-            android:textColor="@color/AU_COLOR_TITLE"
+            android:textColor="@com.alipay.mobile.antui:color/AU_COLOR_TITLE"
             android:textSize="13dp"
             android:tag="up"/>
 
@@ -85,7 +85,7 @@
             android:gravity="center"
             android:onClick="toastPopMenu"
             android:text="选项二"
-            android:textColor="@color/AU_COLOR_TITLE"
+            android:textColor="@com.alipay.mobile.antui:color/AU_COLOR_TITLE"
             android:textSize="13dp"
             android:tag="up"/>
 
@@ -98,7 +98,7 @@
             android:gravity="center"
             android:onClick="toastPopMenu"
             android:text="选项三"
-            android:textColor="@color/AU_COLOR_TITLE"
+            android:textColor="@com.alipay.mobile.antui:color/AU_COLOR_TITLE"
             android:textSize="13dp"
             android:tag="up"/>
     </com.alipay.mobile.antui.basic.AULinearLayout>

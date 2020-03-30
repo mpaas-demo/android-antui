@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.alipay.mobile.antui.basic.AUScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aui="http://schemas.android.com/apk/res/com.alipay.mobile.antui"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -16,15 +16,15 @@
             android:layout_height="64dp"
             android:layout_marginTop="24dp"
             android:onClick="onChangeSkin"
-            app:listItemType="normal"
-            app:listLeftSubText="皮肤更换功能展示"
-            app:listLeftText="换肤" />
+            aui:listItemType="normal"
+            aui:listLeftSubText="皮肤更换功能展示"
+            aui:listLeftText="换肤" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:layout_marginLeft="@dimen/AU_MARGIN_UNIVERSAL"
+            android:layout_marginLeft="@com.alipay.mobile.antui:dimen/AU_MARGIN_UNIVERSAL"
             android:layout_marginTop="24dp"
             android:text="Iconfont矢量图" />
 
@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:layout_marginLeft="@dimen/AU_MARGIN_UNIVERSAL"
+            android:layout_marginLeft="@com.alipay.mobile.antui:dimen/AU_MARGIN_UNIVERSAL"
             android:layout_marginTop="24dp"
             android:text="导航栏" />
 
@@ -41,15 +41,15 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onAUTitleBar"
-            app:listItemType="normal"
-            app:listLeftSubText="统一导航栏"
-            app:listLeftText="AUTitleBar" />
+            aui:listItemType="normal"
+            aui:listLeftSubText="统一导航栏"
+            aui:listLeftText="AUTitleBar" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:layout_marginLeft="@dimen/AU_MARGIN_UNIVERSAL"
+            android:layout_marginLeft="@com.alipay.mobile.antui:dimen/AU_MARGIN_UNIVERSAL"
             android:layout_marginTop="24dp"
             android:text="搜索栏" />
 
@@ -58,15 +58,15 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onAUSearchBar"
-            app:listItemType="normal"
-            app:listLeftSubText="包含点击入口样式和自定义搜索栏输入样式等"
-            app:listLeftText="AUSearchBar" />
+            aui:listItemType="normal"
+            aui:listLeftSubText="包含点击入口样式和自定义搜索栏输入样式等"
+            aui:listLeftText="AUSearchBar" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:layout_marginLeft="@dimen/AU_MARGIN_UNIVERSAL"
+            android:layout_marginLeft="@com.alipay.mobile.antui:dimen/AU_MARGIN_UNIVERSAL"
             android:layout_marginTop="24dp"
             android:text="菜单" />
 
@@ -75,24 +75,24 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onAUCardMenu"
-            app:listItemType="top"
-            app:listLeftSubText="类社交card类弹出菜单"
-            app:listLeftText="AUCardMenu" />
+            aui:listItemType="top"
+            aui:listLeftSubText="类社交card类弹出菜单"
+            aui:listLeftText="AUCardMenu" />
 
         <com.alipay.mobile.antui.tablelist.AUDoubleTitleListItem
             android:id="@+id/float_demo"
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onAUFloatMenu"
-            app:listItemType="bottom"
-            app:listLeftSubText="类导航栏弹出菜单"
-            app:listLeftText="AUFloatMenu" />
+            aui:listItemType="bottom"
+            aui:listLeftSubText="类导航栏弹出菜单"
+            aui:listLeftText="AUFloatMenu" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:layout_marginLeft="@dimen/AU_MARGIN_UNIVERSAL"
+            android:layout_marginLeft="@com.alipay.mobile.antui:dimen/AU_MARGIN_UNIVERSAL"
             android:layout_marginTop="24dp"
             android:text="Table and List" />
 
@@ -101,24 +101,24 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onAUListItems"
-            app:listItemType="top"
-            app:listLeftSubText="基本表单列表等"
-            app:listLeftText="AUListItems" />
+            aui:listItemType="top"
+            aui:listLeftSubText="基本表单列表等"
+            aui:listLeftText="AUListItems" />
 
         <com.alipay.mobile.antui.tablelist.AUDoubleTitleListItem
             android:id="@+id/divider_demo"
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onDividerListView"
-            app:listItemType="bottom"
-            app:listLeftSubText="带分割线的ListView"
-            app:listLeftText="AUDividerListView" />
+            aui:listItemType="bottom"
+            aui:listLeftSubText="带分割线的ListView"
+            aui:listLeftText="AUDividerListView" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:layout_marginLeft="@dimen/AU_MARGIN_UNIVERSAL"
+            android:layout_marginLeft="@com.alipay.mobile.antui:dimen/AU_MARGIN_UNIVERSAL"
             android:layout_marginTop="24dp"
             android:text="按钮" />
 
@@ -127,15 +127,15 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onAUButton"
-            app:listItemType="normal"
-            app:listLeftSubText="提供基本样式"
-            app:listLeftText="AUButton" />
+            aui:listItemType="normal"
+            aui:listLeftSubText="提供基本样式"
+            aui:listLeftText="AUButton" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:layout_marginLeft="@dimen/AU_MARGIN_UNIVERSAL"
+            android:layout_marginLeft="@com.alipay.mobile.antui:dimen/AU_MARGIN_UNIVERSAL"
             android:layout_marginTop="24dp"
             android:text="输入框" />
 
@@ -144,15 +144,15 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onAUTextFields"
-            app:listItemType="normal"
-            app:listLeftSubText="多种场景输入框"
-            app:listLeftText="AUTextFields and InputBox" />
+            aui:listItemType="normal"
+            aui:listLeftSubText="多种场景输入框"
+            aui:listLeftText="AUTextFields and InputBox" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:layout_marginLeft="@dimen/AU_MARGIN_UNIVERSAL"
+            android:layout_marginLeft="@com.alipay.mobile.antui:dimen/AU_MARGIN_UNIVERSAL"
             android:layout_marginTop="24dp"
             android:text="分段选择" />
 
@@ -161,9 +161,9 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onAUSegment"
-            app:listItemType="normal"
-            app:listLeftSubText="分段选择"
-            app:listLeftText="AUSegment" />
+            aui:listItemType="normal"
+            aui:listLeftSubText="分段选择"
+            aui:listLeftText="AUSegment" />
 
         <!--<TextView-->
         <!--android:layout_width="match_parent"-->
@@ -177,15 +177,15 @@
         <!--android:layout_width="match_parent"-->
         <!--android:layout_height="64dp"-->
         <!--android:onClick="onAUCheckbox"-->
-        <!--app:listItemType="normal"-->
-        <!--app:listLeftSubText="单选框"-->
-        <!--app:listLeftText="AUCheckbox" />-->
+        <!--aui:listItemType="normal"-->
+        <!--aui:listLeftSubText="单选框"-->
+        <!--aui:listLeftText="AUCheckbox" />-->
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:layout_marginLeft="@dimen/AU_MARGIN_UNIVERSAL"
+            android:layout_marginLeft="@com.alipay.mobile.antui:dimen/AU_MARGIN_UNIVERSAL"
             android:layout_marginTop="24dp"
             android:text="提示Toast" />
 
@@ -194,15 +194,15 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onAUToast"
-            app:listItemType="normal"
-            app:listLeftSubText="提示Toast"
-            app:listLeftText="AUToast" />
+            aui:listItemType="normal"
+            aui:listLeftSubText="提示Toast"
+            aui:listLeftText="AUToast" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:layout_marginLeft="@dimen/AU_MARGIN_UNIVERSAL"
+            android:layout_marginLeft="@com.alipay.mobile.antui:dimen/AU_MARGIN_UNIVERSAL"
             android:layout_marginTop="24dp"
             android:text="Alerts" />
 
@@ -211,15 +211,15 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onAlerts"
-            app:listItemType="normal"
-            app:listLeftSubText="alert的各种样式和场景"
-            app:listLeftText="Alerts" />
+            aui:listItemType="normal"
+            aui:listLeftSubText="alert的各种样式和场景"
+            aui:listLeftText="Alerts" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:layout_marginLeft="@dimen/AU_MARGIN_UNIVERSAL"
+            android:layout_marginLeft="@com.alipay.mobile.antui:dimen/AU_MARGIN_UNIVERSAL"
             android:layout_marginTop="24dp"
             android:text="菊花刷新" />
 
@@ -228,24 +228,24 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onAUPullloadingView"
-            app:listItemType="top"
-            app:listLeftSubText="下拉刷新"
-            app:listLeftText="AUPullloadingView" />
+            aui:listItemType="top"
+            aui:listLeftSubText="下拉刷新"
+            aui:listLeftText="AUPullloadingView" />
 
         <com.alipay.mobile.antui.tablelist.AUDoubleTitleListItem
             android:id="@+id/loading_demo"
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onAULoadingView"
-            app:listItemType="bottom"
-            app:listLeftSubText="界面加载"
-            app:listLeftText="AULoadingView" />
+            aui:listItemType="bottom"
+            aui:listLeftSubText="界面加载"
+            aui:listLeftText="AULoadingView" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:layout_marginLeft="@dimen/AU_MARGIN_UNIVERSAL"
+            android:layout_marginLeft="@com.alipay.mobile.antui:dimen/AU_MARGIN_UNIVERSAL"
             android:layout_marginTop="24dp"
             android:text="列表字母索引" />
 
@@ -254,15 +254,15 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onAUBladeView"
-            app:listItemType="normal"
-            app:listLeftSubText="列表字母索引"
-            app:listLeftText="AUBladeView" />
+            aui:listItemType="normal"
+            aui:listLeftSubText="列表字母索引"
+            aui:listLeftText="AUBladeView" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:layout_marginLeft="@dimen/AU_MARGIN_UNIVERSAL"
+            android:layout_marginLeft="@com.alipay.mobile.antui:dimen/AU_MARGIN_UNIVERSAL"
             android:layout_marginTop="24dp"
             android:text="选择器" />
 
@@ -271,15 +271,15 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onAUDatePicker"
-            app:listItemType="normal"
-            app:listLeftSubText="日期选择器"
-            app:listLeftText="AUDatePicker" />
+            aui:listItemType="normal"
+            aui:listLeftSubText="日期选择器"
+            aui:listLeftText="AUDatePicker" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:layout_marginLeft="@dimen/AU_MARGIN_UNIVERSAL"
+            android:layout_marginLeft="@com.alipay.mobile.antui:dimen/AU_MARGIN_UNIVERSAL"
             android:layout_marginTop="24dp"
             android:text="结果页" />
 
@@ -288,15 +288,15 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onAUResultView"
-            app:listItemType="normal"
-            app:listLeftSubText="结果页"
-            app:listLeftText="AUResultView" />
+            aui:listItemType="normal"
+            aui:listLeftSubText="结果页"
+            aui:listLeftText="AUResultView" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:layout_marginLeft="@dimen/AU_MARGIN_UNIVERSAL"
+            android:layout_marginLeft="@com.alipay.mobile.antui:dimen/AU_MARGIN_UNIVERSAL"
             android:layout_marginTop="24dp"
             android:text="网络异常页" />
 
@@ -305,15 +305,15 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onAUNetErrorView"
-            app:listItemType="normal"
-            app:listLeftSubText="3种简单版样式和7种插画版样式"
-            app:listLeftText="AUNetErrorView" />
+            aui:listItemType="normal"
+            aui:listLeftSubText="3种简单版样式和7种插画版样式"
+            aui:listLeftText="AUNetErrorView" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:layout_marginLeft="@dimen/AU_MARGIN_UNIVERSAL"
+            android:layout_marginLeft="@com.alipay.mobile.antui:dimen/AU_MARGIN_UNIVERSAL"
             android:layout_marginTop="24dp"
             android:text="其他" />
 
@@ -322,51 +322,51 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onAUTabBar"
-            app:listItemType="top"
-            app:listLeftSubText="切换tab栏控件，如首页"
-            app:listLeftText="AUTabBar" />
+            aui:listItemType="top"
+            aui:listLeftSubText="切换tab栏控件，如首页"
+            aui:listLeftText="AUTabBar" />
 
         <com.alipay.mobile.antui.tablelist.AUDoubleTitleListItem
             android:id="@+id/card_option_demo"
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onAUCardOptionView"
-            app:listItemType="bottom"
-            app:listLeftSubText="首页card操作栏"
-            app:listLeftText="AUCardOptionView" />
+            aui:listItemType="bottom"
+            aui:listLeftSubText="首页card操作栏"
+            aui:listLeftText="AUCardOptionView" />
 
         <com.alipay.mobile.antui.tablelist.AUDoubleTitleListItem
             android:id="@+id/amount_demo"
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onAUAmountInputBox"
-            app:listItemType="bottom"
-            app:listLeftSubText="资金链输入框"
-            app:listLeftText="AUAmountInputBox" />
+            aui:listItemType="bottom"
+            aui:listLeftSubText="资金链输入框"
+            aui:listLeftText="AUAmountInputBox" />
 
         <com.alipay.mobile.antui.tablelist.AUDoubleTitleListItem
             android:id="@+id/code_demo"
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onAUQRCodeView"
-            app:listItemType="bottom"
-            app:listLeftSubText="二维码"
-            app:listLeftText="AUQRCodeView" />
+            aui:listItemType="bottom"
+            aui:listLeftSubText="二维码"
+            aui:listLeftText="AUQRCodeView" />
 
         <com.alipay.mobile.antui.tablelist.AUDoubleTitleListItem
             android:id="@+id/imagepicker_demo"
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onImagePicker"
-            app:listItemType="bottom"
-            app:listLeftSubText="图片选择"
-            app:listLeftText="图片选择" />
+            aui:listItemType="bottom"
+            aui:listLeftSubText="图片选择"
+            aui:listLeftText="图片选择" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:layout_marginLeft="@dimen/AU_MARGIN_UNIVERSAL"
+            android:layout_marginLeft="@com.alipay.mobile.antui:dimen/AU_MARGIN_UNIVERSAL"
             android:layout_marginTop="24dp"
             android:text="功能View" />
 
@@ -375,9 +375,9 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:onClick="onImageView"
-            app:listItemType="bottom"
-            app:listLeftSubText="圆角"
-            app:listLeftText="ImageView" />
+            aui:listItemType="bottom"
+            aui:listLeftSubText="圆角"
+            aui:listLeftText="ImageView" />
     </com.alipay.mobile.antui.basic.AULinearLayout>
 
 </com.alipay.mobile.antui.basic.AUScrollView>

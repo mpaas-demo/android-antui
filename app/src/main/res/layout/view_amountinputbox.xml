@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.alipay.mobile.antui.basic.AULinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aui="http://schemas.android.com/apk/res/com.alipay.mobile.antui"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -9,7 +9,7 @@
         android:id="@+id/pop_title_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:titleText="资金输入" />
+        aui:titleText="资金输入" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
         <com.alipay.mobile.antui.viewdemo.view.BaseHeadView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:titleText="AUAmountInputBox" />
+            aui:titleText="AUAmountInputBox" />
 
         <com.alipay.mobile.antui.basic.AUScrollView
             android:id="@+id/scroll"
@@ -37,7 +37,7 @@
                     <!--android:id="@+id/edit_text"-->
                     <!--android:layout_width="match_parent"-->
                     <!--android:layout_height="wrap_content"-->
-                    <!--app:amountHintText="可用余额500.00" />-->
+                    <!--aui:amountHintText="可用余额500.00" />-->
 
                 <!--<com.alipay.mobile.antui.amount.AUAmountLabelText-->
                     <!--android:id="@+id/label_text"-->
@@ -50,19 +50,19 @@
                     <!--android:layout_width="match_parent"-->
                     <!--android:layout_height="wrap_content"-->
                     <!--android:layout_marginTop="10dp"-->
-                    <!--app:amountHintText="可用余额500.00"-->
-                    <!--app:amountTitleText="转账金额"-->
-                    <!--app:footStyle="textStyle" />-->
+                    <!--aui:amountHintText="可用余额500.00"-->
+                    <!--aui:amountTitleText="转账金额"-->
+                    <!--aui:footStyle="textStyle" />-->
 
                 <com.alipay.mobile.antui.amount.AUAmountInputBox
                     android:id="@+id/amount_input_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    app:amountTitleText="转账金额" />
+                    aui:amountTitleText="转账金额" />
 
                 <com.alipay.mobile.antui.basic.AUButton
-                    style="@style/mainButtonStyle"
+                    style="@com.alipay.mobile.antui:style/mainButtonStyle"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="12dp"
                     android:layout_marginLeft="12dp"

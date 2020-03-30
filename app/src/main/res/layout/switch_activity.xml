@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aui="http://schemas.android.com/apk/res/com.alipay.mobile.antui"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <com.alipay.mobile.antui.viewdemo.view.DemoTitleBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:titleText="Radio" />
+        aui:titleText="Radio" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
         <com.alipay.mobile.antui.viewdemo.view.BaseHeadView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:titleText="Switch" />
+            aui:titleText="Switch" />
 
         <com.alipay.mobile.antui.basic.AULinearLayout
             android:orientation="vertical"
@@ -66,15 +66,15 @@
 
             <com.alipay.mobile.antui.tablelist.AUSwitchListItem
                 android:id="@+id/switch_on"
-                app:listItemType="top"
-                app:listLeftText="开启"
+                aui:listItemType="top"
+                aui:listLeftText="开启"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"></com.alipay.mobile.antui.tablelist.AUSwitchListItem>
 
             <com.alipay.mobile.antui.tablelist.AUSwitchListItem
                 android:id="@+id/switch_off"
-                app:listItemType="bottom"
-                app:listLeftText="关闭"
+                aui:listItemType="bottom"
+                aui:listLeftText="关闭"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"></com.alipay.mobile.antui.tablelist.AUSwitchListItem>
         </com.alipay.mobile.antui.basic.AULinearLayout>

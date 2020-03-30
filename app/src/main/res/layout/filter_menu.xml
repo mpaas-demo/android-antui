@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aui="http://schemas.android.com/apk/res/com.alipay.mobile.antui"
     android:layout_height="match_parent">
 
     <com.alipay.mobile.antui.basic.AULinearLayout
@@ -13,21 +13,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/title_bar"
-            app:titleText="Sreening" />
+            aui:titleText="Sreening" />
         <com.alipay.mobile.antui.viewdemo.view.BaseHeadView
-            app:titleText="Sreening"
+            aui:titleText="Sreening"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"></com.alipay.mobile.antui.viewdemo.view.BaseHeadView>
 
 
         <com.alipay.mobile.antui.basic.AUButton
-            style="@style/subButtonStyle"
+            style="@com.alipay.mobile.antui:style/subButtonStyle"
             android:layout_margin="12dp"
             android:id="@+id/single_filter"
             android:clickable="true"
             android:text="单项选择" />
         <com.alipay.mobile.antui.basic.AUButton
-            style="@style/subButtonStyle"
+            style="@com.alipay.mobile.antui:style/subButtonStyle"
             android:layout_margin="12dp"
             android:clickable="true"
             android:id="@+id/multi_filter"

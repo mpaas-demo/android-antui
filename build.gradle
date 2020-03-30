@@ -1,7 +1,5 @@
 apply plugin: 'maven'
-if (rootProject.file('./mavens.gradle').exists()) {
-    apply from: './mavens.gradle'
-}
+
 buildscript {
     repositories {
         mavenLocal()
@@ -17,7 +15,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.3'
+        classpath 'com.alipay.android:android-gradle-plugin:3.5.2'
         classpath 'com.android.boost.easyconfig:easyconfig:2.3.7'
     }
 }

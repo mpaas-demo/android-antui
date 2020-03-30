@@ -3,9 +3,9 @@
     android:id="@+id/expand_list"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:childDivider="@color/AU_COLOR_LINE"
+    android:childDivider="@com.alipay.mobile.antui:color/AU_COLOR_LINE"
     android:divider="@null"
     android:groupIndicator="@null"
     android:listSelector="#00000000"
-    android:padding="@dimen/AU_MARGIN_UNIVERSAL"
+    android:padding="@com.alipay.mobile.antui:dimen/AU_MARGIN_UNIVERSAL"
     android:scrollbarStyle="outsideOverlay" />

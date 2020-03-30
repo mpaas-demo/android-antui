@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aui="http://schemas.android.com/apk/res/com.alipay.mobile.antui"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -9,7 +9,7 @@
         android:id="@+id/title_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:titleText="SearchBar" />
+        aui:titleText="SearchBar" />
 
     <com.alipay.mobile.antui.basic.AULinearLayout
         android:layout_width="match_parent"
@@ -21,11 +21,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/title_bar"
-            app:titleText="SearchBar" />
+            aui:titleText="SearchBar" />
 
         <com.alipay.mobile.antui.basic.AUButton
             android:id="@+id/search_btn"
-            style="@style/subButtonStyle"
+            style="@com.alipay.mobile.antui:style/subButtonStyle"
             android:layout_marginBottom="12dp"
             android:layout_marginLeft="12dp"
             android:layout_marginRight="12dp"
