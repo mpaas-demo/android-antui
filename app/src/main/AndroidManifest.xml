@@ -76,6 +76,7 @@
         <activity android:name="com.alipay.mobile.antui.viewdemo.PopTipsActivity" />
         <activity android:name="com.alipay.mobile.antui.viewdemo.BubbleViewActivity" />
         <activity android:name="com.alipay.mobile.antui.viewdemo.FullScreenActivity" />
+        <activity android:name="com.alipay.mobile.antui.viewdemo.AULinearLayoutActivity" />
     </application>
 
 </manifest>
